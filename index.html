@@ -448,13 +448,10 @@
     <div class="research-block">
       <div class="section-label">CURRENT RESEARCH</div>
       <p>
-        Studying P. celeri across multi-omic layers — transcriptomics, 
-        proteomics, metabolomics, and post-translational modifications — to build integrated, 
-        predictive genome-scale metabolic models that inform future metabolic engineering efforts. 
-        As PI on a DOE/EMSL CAM campaign, developing refined models to elucidate CO₂-dependent 
-        extreme growth and carbon partitioning in algae. We generate accurate, reproducible data 
-        for model generation and validation using state-of-the-art photosynthetic bioreactors 
-        capable of simulating outdoor growth conditions through climate simulation.
+        Leading a DOE/EMSL campaign to integrate multi-omic layers — transcriptomics, 
+        proteomics, metabolomics, and PTMs — into AI/ML-driven, predictive genome-scale 
+        metabolic models of <i>P. celeri</i>, using climate-simulated photobioreactors 
+        for data generation and model validation.
       </p>
     </div>
 
@@ -558,6 +555,18 @@
         <span class="link-arrow">↓</span>
       </a>
 
+      <!-- Research Poster Download -->
+      <a href="EMSL-JGI_Poster.pdf" target="_blank" download class="link-btn">
+        <div class="link-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 3v11.25A2.25 2.25 0 006 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0118 16.5h-2.25m-7.5 0h7.5m-7.5 0l-1 3m8.5-3l1 3m0 0l.5 1.5m-.5-1.5h-9.5m0 0l-.5 1.5"/></svg>
+        </div>
+        <div class="link-label">
+          <div class="link-title">Research Poster</div>
+          <div class="link-sub">Multi-omics integration in P. celeri — EMSL/JGI 2026</div>
+        </div>
+        <span class="link-arrow">↓</span>
+      </a>
+
     </div>
 
     <!-- EXPERTISE TAGS -->
@@ -569,6 +578,8 @@
       <span class="tag">Transcriptomics & proteomics</span>
       <span class="tag">Metabolomics & PTM analysis</span>
       <span class="tag">Bioinformatics (R / Python / WSL)</span>
+      <span class="tag">Genome-scale metabolic modeling</span>
+      <span class="tag">AI/ML for systems biology</span>
       <span class="tag">Flow cytometry</span>
       <span class="tag">Fluorescence & confocal microscopy</span>
       <span class="tag">Genome editing & transgenesis</span>
@@ -604,10 +615,10 @@ TEL;TYPE=CELL:+18582818233
 EMAIL;TYPE=WORK:yasin.torres-tiji@mines.edu
 URL:https://scholar.google.com/citations?user=x7rSmnAAAAAJ&hl=en
 URL:https://orcid.org/0000-0001-8976-1620
-ADR;TYPE=WORK:;;1500 Illinois St;Golden;CO;80401;USA
-NOTE:Algal Synthetic & Systems Biology. Seeking faculty/PI/staff scientist positions (available mid-2027). ORCID: 0000-0001-8976-1620
+ADR;TYPE=WORK:;;1301 19th St, GRL 331;Golden;CO;80401;USA
+NOTE:Algal Synthetic & Systems Biology. Seeking faculty/PI/staff scientist positions (available early 2027). ORCID: 0000-0001-8976-1620
 END:VCARD`;
-      
+
       const blob = new Blob([vcard], { type: 'text/vcard;charset=utf-8' });
       const url = URL.createObjectURL(blob);
       const a = document.createElement('a');
@@ -619,6 +630,5 @@ END:VCARD`;
       URL.revokeObjectURL(url);
     }
   </script>
-
 </body>
 </html>
